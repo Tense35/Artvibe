@@ -1,0 +1,279 @@
+header
+{
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.InHeader
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Active
+{
+    border: 1px transparent solid;
+    border-bottom-color: #FFF;
+}
+
+.Logo img
+{
+    width: 300px;
+}
+
+.Menu a
+{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    margin: 0px 4px;
+    padding: 2px 1px;
+}
+
+header nav ul
+{
+    display: flex;
+}
+
+header nav ul li
+{
+    list-style: none;
+}
+
+#Deploy
+{
+    width: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+.OffMenu
+{
+    display: none;
+}
+
+.Body
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Centrado
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Subtitulo
+{
+    font-size: 45px;
+}
+
+.Footer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterInferior
+{
+    box-shadow: 0 0px 15px rgba(0,0,0,0.2);
+    color: #FFF;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.FooterInferior p
+{
+    margin: 0;
+}
+
+.Body
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Carga
+{
+    background-image: url(../../img/Cabecera.png);
+    height: 100%;
+    min-height: 100%;
+}
+
+.Parrafo
+{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.Img 
+{
+    width: 32%;
+    max-width: 32%;
+    min-width: 32%;
+    height: 500px;
+}
+
+.Img img 
+{
+    width: 100%;
+}
+
+.ContenidoConcepto
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Titulo 
+{
+    width: 35%;
+    max-width: 35%;
+    min-width: 35%;
+}
+
+.Amarillo
+{
+    color: #E5BE01;
+}
+
+.PTittle
+{
+    margin-top: 200px;
+    color: #FFF;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Blanco
+{
+    color: #FFF;
+    margin-bottom: 280px;
+}
+
+.bLanding
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+.Datos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Dato
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Texto
+{
+    width: 50%;
+}
+
+.Imagen
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.Imagen img
+{
+    width: 70%;
+}
+
+.ImgFinal
+{
+    display: flex;
+    justify-content: center;
+}
+
+.ImgFinal img
+{
+    margin-top: 100px;
+    width: 100%;
+}
+
+footer .Centrado
+{
+    background-image: url(../../Img/Final.png);
+    width: 100%;
+}
+
+.FinalTittle
+{
+    margin-top: 130px;
+    color: #FFF;
+    font-size: 50px;
+    text-align: center;
+}
+
+.FinalText
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.Botones
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.Ingresar
+{
+    background-color: transparent;
+    color: #FFF;
+    border: 2px solid #E5BE01;
+    padding: 10px 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.Registrarse
+{
+    background-color: #FFF;
+    color: #000;
+    padding: 10px 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
